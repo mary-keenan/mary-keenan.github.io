@@ -1,118 +1,19 @@
 ---
-layout: landing
+layout: main
 ---
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<ul class="actions">
-								<li><a href="portfolio.html" class="button special">Portfolio</a></li>
-								<li><a href="about_me.html" class="button special">About Me</a></li>
-							</ul>
-						</div>
-						<a href="#overview" class="more scrolly">About Me</a>
-					</section>
 
-				<!-- One -->
-					<section id="overview" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>About Me</h2>
-								<p> I graduated from Olin College of Engineering in 2019 with a major in Computing. I'm interested in designing for underserved populations, solving the Grand Challenges, and political activism. My work experience lies primarily in the data analytics space, but I also have experience with user-oriented design and hardware integration.</p>
-							</header>
-<!-- 							<ul class="actions">
-								<li><a href="about_me.html" class="button special" color = "white">Read More</a></li>
-							</ul> -->
-							<ul class="icons major">
-								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							</ul>
-						</div>
-						<a href="#featured_projects" class="more scrolly">Featured Projects</a>
-					</section>
-
-<!-- 					<section id="overview" class="wrapper style2 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Featured Projects</h2>
-							</header>
-						</div>
-					</section> -->
-
-				<!-- featured projects -->
-					<section id="featured_projects" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/spectre_final_render.jpg" alt="" /></div><div class="content">
-								<h2>Spectre</h2>
-								<p>
-								I co-developed a voice-controlled smart mirror and cabinet system that can show a variety of information as well as open and close in the middle.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/beakon_logo.jpg" alt="" /></div><div class="content">
-								<h2>Beakon</h2>
-								<p>
-								I worked on a team of four to design and build an Android app that connects aspiring activists to small-scale, crowd-sourced social movements.
-								</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/fecal_sludge_system.jpg" alt="" /></div><div class="content">
-								<h2>Fecal Sludge Removal</h2>
-								<p>
-								For my senior capstone, I and four other students worked to improve informal pit latrine emptying for people in developing countries in a project sponsored by the Gates Foundation.
-								</p>
-							</div>
-						</section>
-					</section>
-
-				<!-- other projects -->
-					<section id="other_projects" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+{% for post in paginator.posts %}
+  <div class="chapter">
+    <a href="{{post.url | prepend: site.baseurl}}">
+      {% if post.img %}
+        <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+      {% endif %}
+    </a>
+    <a href="{{post.url | prepend: site.baseurl}}">
+      <div class="chapter_inner">
+        <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
+        <h3 class="chapter_title">{{post.title}}</h3>
+      </div>
+    </a>
+  </div>
+{% endfor %}
