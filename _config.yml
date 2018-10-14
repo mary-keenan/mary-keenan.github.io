@@ -52,6 +52,6 @@ social:
 
 # Build settings
 markdown: kramdown
-theme: spectral
+remote_theme: spectral
 #sass:
 #  style: compressed
