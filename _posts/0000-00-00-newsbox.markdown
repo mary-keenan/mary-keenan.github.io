@@ -12,5 +12,5 @@ The project was Python-centric and quite simple. We collected tweets using pytho
 
 For more information about our project, check out our [Github website](http://sungwoooo.com/NewsBox/). To use our web app, click [here](https://shrouded-beyond-19943.herokuapp.com/)! Note: You have to refresh the map each time you search a new word after you search it. It always loads the last map first. Fun little quirk…
 
-![map](mary-keenan.github.io/assets/img/nb_map.png)
-![diagram](mary-keenan.github.io/assets/img/nb_diagram.png)
+![map](/assets/img/nb_map.png = 250x)
+![diagram](/assets/img/nb_diagram.png = 250x)
