@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Foam Boat"
-img: boat_cad.jpg # Add image post (optional)
+title: "Bob"
+img: boat_cad.jpg 
 date: 2015-12-18 12:55:00 +0300
 description:
 tag: [mechanical engineering, modelling, design]
