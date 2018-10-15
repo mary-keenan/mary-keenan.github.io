@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Baja"
+img: baja_air.jpg # Add image post (optional)
+date: 2016-5-18 12:55:00 +0300
+description:
+tag: [mechanical engineering, welding, design]
+---
+
+I joined the Olin Mini BAJA team my third week of school. I didn’t know the first thing about cars, but the Baja team took me under their wing.
+
+I learned how to use SolidWorks’ PDM for file sharing, and I designed several parts for the car using SolidWorks. I also machined some parts; I got MIG welding trained solely to help with fabrication, and I used my skills to weld part of the CVT testing rig. I also got practice operating a cold saw, band saw, and belt sander while working on the car.
+
+We traveled to a Tennessee Mini Baja competition at the end of the second semester. We performed extraordinarily well in the static events, such as acceleration, sled-pull, suspension, and maneuverability. We had a rougher go with the endurance course; it’s designed to break your car, and it did break our car — twice!
