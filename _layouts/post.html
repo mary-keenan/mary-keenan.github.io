@@ -10,7 +10,7 @@ layout: default
         <img src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
       </div>
       <div class="post_description">
-        <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
+        <p class="post_meta">{{page.date | date: '%Y, %b'}}</p>
         <h1 class="post_title">{{page.title}}</h1>
       </div>
     </header> <!-- End Header -->
@@ -52,13 +52,9 @@ layout: default
           <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:dwayne@example.com">dwayne@example.com</a></span>
           {% endif %}
           
-          {% if site.phone %}
-          <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{site.phone}}">{{site.phone}}</a></span>
-          {% else %}
-          <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+496-169-65-57">(496)-169-6557</a></span>
-          {% endif %}
 
-          {% if site.website %}
+
+          {% if site.linkedin %}
           <span class="author_website"><i class="fa fa-link" aria-hidden="true"></i> <a href="{{site.website}}" target="_blank">{{site.website}}</a></span>
           {% else %}
           <span class="author_website"><i class="fa fa-link" aria-hidden="true"></i> <a href="#" target="_blank">https://dwayne.example.com</a></span>
