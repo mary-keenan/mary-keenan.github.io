@@ -24,6 +24,7 @@ The prototype we produced after eight weeks of hard work is relatively simple an
 Each boat has the same setup. We use a GPS sensor to collect location data and a potentiometer to measure the tack, as you can see in the picture on the left. The green part of the tack sensor attaches to the mast of the boat, and a similar but not-shown white piece clips on to the boom.
 
 ![tack](/assets/img/bs_tack.png =250x)
+<img src="/assets/img/bs_tack.png" alt="drawing" width="250"/>
 
 This information is broadcasted by a Raspberry Pi via an ad-hoc network; the two Pis receive the data from both boats, process it, and communicate it to the blind sailors using text-to-speech. A diagram of our system is on the right!
 
