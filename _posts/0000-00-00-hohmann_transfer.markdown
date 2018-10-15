@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hohmann Transfer"
-img: hohman.jpg 
+img: hohmann.jpg 
 date: 2015-12-18 12:55:00 +0300
 description:
 tag: [class project, modelling]
