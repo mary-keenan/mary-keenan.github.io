@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Blind Sailing"
-img: spectre_diy.png # Add image post (optional)
-date: 2016-12-18 12:55:00 +0300
+img: bs_overview.png # Add image post (optional)
+date: 2016-7-10 12:55:00 +0300
 description: Worked on the Olin Adaptive Sailing Team to create a system that enables blind sailors to compete in match races autonomously.
 tag: [research, python, integration, user-oriented design]
 ---
