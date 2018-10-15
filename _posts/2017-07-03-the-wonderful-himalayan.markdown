@@ -15,10 +15,9 @@ You can find more information about the software side of our project on the Soft
 We run through Spectre’s features in the videos below. We show the software features in the first video (before our UI was optimized for a smaller screen), and we open and close the mirror in the second and third, respectively.
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+<!-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> -->
 
 With the exception of the Arduino code, we stuck to Python. You can check out our Github repository [here](https://github.com/SungwooPark/Spectre). We have extensive documentation for our project on our [website](http://poe.olin.edu/2016/spectre/), including a DIY [section](http://poe.olin.edu/2016/spectre/#DIY)!
 
