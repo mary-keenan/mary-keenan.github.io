@@ -11,3 +11,4 @@ Facial recognition was the focus of my second project in QEA, an experimental cl
 
 I did research on several methods of facial recognition before deciding to focus on two: the Eigenface and Linear Correlation methods. I wrote code for both and compared the memory, speed, and accuracy of the two programs under different conditions (variable lighting, expressions, position, and so on). I put my findings in a short paper. Here’s the PDF: Final Design Report. Fair warning, some of the formatting is a little messed up.
 
+![tack](mary-keenan.github.io/assets/img/Final-Design-Report.pdf)
