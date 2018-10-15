@@ -2,9 +2,9 @@
 layout: post
 title: "Binaural Audio Generation"
 img: binaural.jpg # Add image post (optional)
-date: 2015-12-18 12:55:00 +0300
+date: 2016-5-18 12:55:00 +0300
 description:
-tag: [mechanical engineering, modelling, design]
+tag: [class project, modelling]
 ---
 
 I worked with a partner in my second semester of Quantitative Engineering Analysis (a two-semester course) to write and examine two different methods of generating binaural audio in MATLAB. The first method attempted to do so by using theoretical audio models and the second utilized experimental data. I worked on the latter.
