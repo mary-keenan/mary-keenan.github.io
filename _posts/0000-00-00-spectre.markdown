@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spectre"
-img: spectre_final_render.jpg # Add image post (optional)
+img: spectre.jpg # Add image post (optional)
 date: 2016-12-18 12:55:00 +0300
 description: Created voice-controlled smart mirror and cabinet system that can show a variety of information as well as open and close in the middle.
 tag: [class project, python, integration]
