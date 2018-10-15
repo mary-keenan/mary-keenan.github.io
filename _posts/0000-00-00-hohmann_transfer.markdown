@@ -2,7 +2,7 @@
 layout: post
 title: "Binaural Audio Generation"
 img: binaural.jpg 
-date: 2015-12-18 12:55:00 +0300
+date: 2016-5-18 12:55:00 +0300
 description:
 tag: [class project, modelling]
 ---

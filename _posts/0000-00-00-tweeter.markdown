@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tweeter"
-img: tweeter.jpg # Add image post (optional)
+img: tweeter.png # Add image post (optional)
 date: 2015-11-18 12:55:00 +0300
 description:
 tag: [python, full stack, hackathon, analytics]
