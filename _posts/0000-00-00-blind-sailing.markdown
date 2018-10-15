@@ -27,11 +27,11 @@ Each boat has the same setup. We use a GPS sensor to collect location data and a
 
 This information is broadcasted by a Raspberry Pi via an ad-hoc network; the two Pis receive the data from both boats, process it, and communicate it to the blind sailors using text-to-speech. A diagram of our system is on the right!
 
-![system diagram](mary-keenan.github.io/assets/img/bs_diagram.png)
+![system diagram](/assets/img/bs_diagram.png)
 
 Our program is very customizable; everything from how often the information is shared, what information is shared, the units for the information, and so on, can be adjusted. The blind sailors can receive regular updates as well as query the information whenever they want using a keypad (diagram on the left!). The information available includes the distance and relative direction from one boat to another, the tack of the other boat, and the distance and relative directions to each of the buoys (the coordinates of the buoys can be plugged in).
 
-![tack](mary-keenan.github.io/assets/img/bs_keypad.png)
+![keypad](/assets/img/bs_keypad.png)
 
 The videos below shows two of our test sessions. We regularly tested our prototypes on our own and with blind sailors, and we incorporated their suggestions. The project isn’t done, but we made good progress, and we have some very happy sailors!
 
