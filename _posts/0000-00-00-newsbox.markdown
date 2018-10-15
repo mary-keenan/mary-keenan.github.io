@@ -1,0 +1,16 @@
+---
+layout: post
+title: "NewsBox"
+img: nb_map.png # Add image post (optional)
+date: 2015-12-18 12:55:00 +0300
+tag: [class project, python, analytics]
+---
+
+I worked with a partner at the end of my second semester in my Software Design class to create a web app that shows how the polarity (positivity) of tweets found using a given keyword varies in different regions of the US.
+
+The project was Python-centric and quite simple. We collected tweets using python-twitter, analyzed the sentiment using Indico’s API, edited an SVG file of a map of the US using Beautiful Soup, and created a web application using Flask to fetch input and display output!
+
+For more information about our project, check out our [Github website](http://sungwoooo.com/NewsBox/). To use our web app, click [here](https://shrouded-beyond-19943.herokuapp.com/)! Note: You have to refresh the map each time you search a new word after you search it. It always loads the last map first. Fun little quirk…
+
+![map](mary-keenan.github.io/assets/img/nb_map.png)
+![diagram](mary-keenan.github.io/assets/img/nb_diagram.png)
