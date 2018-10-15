@@ -25,7 +25,7 @@ Each boat has the same setup. We use a GPS sensor to collect location data and a
 
 <img src="/assets/img/bs_tack.png" alt="drawing" width="500"/>
 
-This information is broadcasted by a Raspberry Pi via an ad-hoc network; the two Pis receive the data from both boats, process it, and communicate it to the blind sailors using text-to-speech. A diagram of our system is on the right!
+This information is broadcasted by a Raspberry Pi via an ad-hoc network; the two Pis receive the data from both boats, process it, and communicate it to the blind sailors using text-to-speech. A diagram of our system is below!
 
 <img src="/assets/img/bs_diagram.png" alt="drawing" width="500"/>
 
