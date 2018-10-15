@@ -1,17 +1,13 @@
 ---
 layout: post
-title: "Tweeter"
-img: tweeter.jpg # Add image post (optional)
+title: "Binaural Audio Generation"
+img: binaural.jpg 
 date: 2015-12-18 12:55:00 +0300
 description:
-tag: [python, full stack, hackathon, analytics]
+tag: [class project, modelling]
 ---
 
-Tweeter was my first hackathon project! I teamed up with two similarly-inexperienced friends to compete in the Wellesley College WHACK-athon the second semester of my first year. Considering MATLAB was the only programming language in which any of us was proficient, we did surprisingly well! We won the Rookie Prize.
+I worked with a partner in my second semester of Quantitative Engineering Analysis (a two-semester course) to write and examine two different methods of generating binaural audio in MATLAB. The first method attempted to do so by using theoretical audio models and the second utilized experimental data. I worked on the latter.
 
-I hope you’ll excuse the horrible name — our project ended up going in a different direction than we had expected, and we were clearly too sleep-deprived to come up with a good name for what we ended up with.
-
-This was a very unpolished precursor of NewsBox. We found the average polarity of tweets about some given topic and compared it to the polarity of another topic’s tweets. For more information, please take a look at our [devpost entry](http://devpost.com/software/tweeter#updates) — again, we were running on one hour of sleep when we wrote it up so please excuse any spelling/grammar mistakes.
-
-<img src="/assets/img/tweeter_talk.jpg" alt="drawing" width="500"/>
+We had mixed success. In my case, this was partly due to various difficulties I encountered during data collection. More information on why our results were lackluster can be found on our [website](https://sites.google.com/view/qeabinauralsoundgeneration/home?authuser=0), as well as the methodology we used and the results of the user-testing we conducted to assess the accuracy of our binaural audio generation programs.
 

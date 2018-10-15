@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Foam Boat"
+img: boat_cad.jpg # Add image post (optional)
+date: 2015-12-18 12:55:00 +0300
+description:
+tag: [mechanical engineering, modelling, design]
+---
+
+I worked with a partner the first semester of QEA, an experimental class to teach students quantitative analysis skills in context, to create a high-performing foam boat.
+
+Our boat had to perform well in a few categories. It had to be stable; this was measured by whether or not the boat floated and whether or not it floated flat. It had to have an angle of vanishing stability (AVS) between 120-140 degrees. This meant that until the mast of the boat was at least 30 degrees under the waterline, the boat had to be able to right itself, a daunting task at first. Finally, the boat should be as fast as possible.
+
+We modeled and optimized the design of a simple boat in MATLAB, created it in SolidWorks, and put it together. I learned more about modeling simple systems and figuring out what variables are important and what variables are not; in this context, I also learned some math and physics.
+
+My boat, embarrassingly named Trojan (my partner was worried about waterproofing the boat and originally wanted to wrap the boat in a…you know, but was pacified with using it as a flag instead), performed well. It had the highest AVS in the class, continuing to right itself up to 145 degrees. Our boat fell somewhere in the middle for speed and was unfortunately the only boat in the class that didn’t float flat, because we attached the weights crookedly to the keel. It floated at a 5 degree angle instead of 0. Oh well. That taught us that while modeling is necessary, craftsmanship is also important!
+
+<img src="/assets/img/boat_tilt.jpg" alt="drawing" width="500"/>
+
